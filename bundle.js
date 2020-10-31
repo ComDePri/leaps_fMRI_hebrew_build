@@ -8647,6 +8647,8 @@ var TrainingScene = function (_util$Entity2) {
       document.getElementById("training-3").style.display = "none";
       // document.getElementById("training-5").style.display = "block";
       document.getElementById('training-4').style.display = "block";
+      this.blockScene.teardown();
+      this.blockScene.setup();
     }
   }, {
     key: "onDonePart4",
