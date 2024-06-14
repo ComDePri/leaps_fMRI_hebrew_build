@@ -124,7 +124,7 @@ a {
 {
   pointer-events: none;
 }
-/* Roey tried removing these two buttons.
+
 #add-shape {
   position: absolute;
   top: 10px;
@@ -136,7 +136,7 @@ a {
   top: 420px;
   right: 10px;
 }
-*/
+
 #gallery-instructions {
   position: absolute;
   top: -5px;
