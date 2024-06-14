@@ -8789,6 +8789,7 @@ var BlockScene = function (_util$Entity3) {
       this.confirmDone = this.confirmDone.bind(this);
       this.onKeyUp = this.onKeyUp.bind(this);
       document.getElementById("add-shape").addEventListener("click", this.onAddShape);
+      document.getElementById("add-shape").style.display = "none"; // Roey added this to hide the add-shape button
       document.getElementById("modal-confirm-cancel-button").addEventListener("click", this.cancelModal);
       document.getElementById("modal-confirm-done-button").addEventListener("click", this.confirmDone);
       document.getElementById("pixi-canvas").addEventListener("keyup", this.onKeyUp);
