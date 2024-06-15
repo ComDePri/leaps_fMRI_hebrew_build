@@ -8651,7 +8651,8 @@ var TrainingScene = function (_util$Entity2) {
       document.getElementById("training-2").style.display = "none";
       document.getElementById("training-3").style.display = "block";
 
-      document.getElementById("add-shape").style.display = "block";
+      //document.getElementById("add-shape").style.display = "block";  // Roey commented to hide save button during training
+      document.getElementById("add-shape").style.display = "none"; // Roey added to hide save button during training
       document.getElementById("pixi-canvas").focus();
       this.blockScene.preventAddingShape = false;
     }
