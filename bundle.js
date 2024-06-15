@@ -8797,6 +8797,7 @@ var BlockScene = function (_util$Entity3) {
       // Don't allow player to leave early if allowEarlyExit is false
       var doneAddingButton = document.getElementById("done-adding");
       doneAddingButton.addEventListener("click", this.onAttemptDone);
+      document.getElementById("done-adding").style.display = "none"; // Roey: Added this to remove the End-Game button from the game
       doneAddingButton.disabled = !allowEarlyExit;
     }
   }, {
