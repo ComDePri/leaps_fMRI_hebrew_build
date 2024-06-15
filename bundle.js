@@ -8860,7 +8860,7 @@ var BlockScene = function (_util$Entity3) {
       if (timeSinceStart > MAX_SEARCH_TIME) {
         if (inTraining) return;
         this.timesUp = true;
-
+        document.getElementById("done-adding").style.display = "block"; // Roey: Added this to bring back the End-Game button at the end of the game
         document.getElementById("add-shape").disabled = true;
         if (galleryShapes.length < 5) {
           document.getElementById("stuck-message").style.display = "block";
